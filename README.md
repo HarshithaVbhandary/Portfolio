@@ -29,6 +29,7 @@ The portfolio includes:
 
 🌐 Live Portfolio
 https://github.com/HarshithaVbhandary/Portfolio
+
 ⭐ Thank you for visiting my portfolio!
 
 
