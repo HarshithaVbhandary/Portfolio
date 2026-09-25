@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Harshitha The Analyst Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:700,400&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            min-height: 100vh;
+            font-family: 'Montserrat', Arial, sans-serif;
+            background: radial-gradient(circle at 50% 20%, #444 0%, #222 100%);
+            color: #fff;
+        }
+        .menu {
+            position: absolute;
+            top: 35px;
+            right: 35px;
+            font-size: 1.13em;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            letter-spacing: 1px;
+            cursor: pointer;
+            z-index: 100;
+        }
+        .menu-icon {
+            font-size: 1.7em;
+            margin-right: 7px;
+        }
+        .hero {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 80vh;
+            text-align: center;
+        }
+        .hero-title {
+            font-size: 2.7em;
+            font-weight: 700;
+            letter-spacing: 0.08em;
+            margin-bottom: 25px;
+            line-height: 1.08;
+        }
+        .hero-desc {
+            font-size: 1.12em;
+            color: #e6e6e6;
+            width: 97%;
+            max-width: 680px;
+            margin: 0 auto 15px auto;
+            font-weight: 400;
+        }
+        .hero-desc a {
+            color: #b8d7ff;
+            text-decoration: underline dotted;
+            font-weight: 600;
+        }
+        nav#navMenu {
+            display: none;
+            position: absolute;
+            top: 74px;
+            right: 35px;
+            background: #2c2c2c;
+            border-radius: 7px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.12);
+            z-index: 99;
+            min-width: 180px;
+        }
+        nav#navMenu ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        nav#navMenu ul li {
+            border-bottom: 1px solid #444;
+        }
+        nav#navMenu ul li:last-child {
+            border-bottom: none;
+        }
+        nav#navMenu ul li a {
+            color: #fff;
+            text-decoration: none;
+            display: block;
+            padding: 15px 40px;
+            transition: background 0.2s;
+        }
+        nav#navMenu ul li a:hover {
+            background: #454545;
+        }
+        @media (max-width: 600px) {
+            .hero-title { font-size: 1.5em;}
+            .menu, nav#navMenu { right: 16px; top: 20px; }
+            nav#navMenu { top: 53px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="menu" id="menuButton">
+        <span class="menu-icon">&#9776;</span>
+        MENU
+    </div>
+    <nav id="navMenu">
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="Projects.html">Projects</a></li>
+            <li><a href="Certifications.html">Certifications</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <section class="hero">
+        <div class="hero-title">HARSHITHA<br>PROTFOLIO</div>
+        <div class="hero-desc">
+            Versatile Data Analyst skilled in Python and PowerBI,<br>
+            with a strong grasp of data analysis and visualization.<br>
+            Quick learner and effective team collaborator <a href="#"></a>
+        </div>
+    </section>
+    <script>
+        // Toggle menu visibility
+        document.getElementById('menuButton').onclick = function() {
+            var navMenu = document.getElementById('navMenu');
+            navMenu.style.display = (navMenu.style.display === "none" || navMenu.style.display === "") ? "block" : "none";
+        };
+        // Optional: Close menu when clicking outside
+        document.addEventListener('click', function(event) {
+            var menuButton = document.getElementById('menuButton');
+            var navMenu = document.getElementById('navMenu');
+            if (!menuButton.contains(event.target) && !navMenu.contains(event.target)) {
+                navMenu.style.display = "none";
+            }
+        });
+    </script>
+</body>
+</html>
+
+
+
