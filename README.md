@@ -5,7 +5,7 @@ This portfolio showcases my skills, projects, education.
 
 ## 👩‍💻 About Me
 
-I am a Computer Science Engineering graduate with practical experience in  Planning engg. I am currently working as a **NAPS Trainee – Planning Engineer**, where I work with tools such as Excel and Navision.
+I am a Computer Science Engineering graduate with practical experience in Planning. I am currently working as a **NAPS Trainee – Planning Engineer**, where I work with tools such as Excel and Navision.
 
 I am interested in building my career in **Data Analytics** and continuously developing my skills in data analysis, visualization, SQL, Python, and Power BI.
 
@@ -28,8 +28,7 @@ The portfolio includes:
 - 📞 Contact
 
 🌐 Live Portfolio
-
+https://github.com/HarshithaVbhandary/Portfolio
 ⭐ Thank you for visiting my portfolio!
-```text⭐ Thank you for visiting my portfolio!
-HTML5
-CSS3
+
+
